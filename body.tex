@@ -12,7 +12,7 @@ The borehole design follows the Sandia Report Reference Design and Operations
 for Deep Borehole Radioactive Waste \cite{arnold_reference_2011}. Selection of 
 an alternative borehole concept could impact the details of the repacking needs 
 and facility design, but will not significantly impact the siting comparison 
-here.
+in this paper.
  
 \subsection{Case I: Reference Case} 
 The reference case, upon which the proposed case seeks to improve, is to build 
@@ -37,29 +37,6 @@ licensed land area of approximately $58 km^2$ and a $20 km^2$ cooling heat sink,
 the Clinton Lake. Of the licensed land area, only $0.6 km^2$ is used for the facility.  
 \cite{nrc_chapter_2007}.  This leaves enough room left for a 70,000 \gls{MTHM} 
 borehole repository without additional land purchase from the public.
-
-\subsection{Potential Plan: Combined Case}
-As an aside, given that one 70,000 \gls{MTHM} repository is already insufficient for 
-domestic \gls{SNF} needs \cite{doe_report_2008}, a potential plan for the future can be proposed, 
-a dual-repository scenario. In this scenario, both the Yucca Mountain 
-repository and the near-Clinton borehole repository are sited and someday 
-become operational. The proposal that a pair of repositories, east and west, is 
-not new. Indeed, it was originally envisioned before the Yucca Mountain site 
-selection was made.
-
-In this scheme, eastern reactors send their spent fuel to the eastern 
-repository site while western reactors send theirs to the western site. Thus, 
-the less-nuclear western region will not bear the burden of hosting a 
-repository for the eastern region, which has a larger percent of nuclear 
-energy. 
-
-For this scenario, spent fuel west of the 92 west meridian is considered west, 
-which will send its \gls{SNF} to Yucca Mountain. Conversely, spent fuel east of the 92 west
-meridian is considered east, which will send its \gls{SNF} to the proposed Clinton 
-power plant. The 92 west meridian is chosen because it is the meridian just west of
-Illinois state borders, so that no Illinois power plants have to transport their
-spent fuel to Yucca Mountain. This plan will be analyzed in the paper but should
-not be a comparison to the previous two cases because it has different capacities. %no division.
 
 
 \section{Methodology}
@@ -134,9 +111,6 @@ so that in the final section, they are applied to comparatively evaluate each ca
 
 The normalization of the metrics are done to a scale of 0 to 1 using the equation
 below, where 0 is the worst possible value, and 1 the best. 
-%If the best case
-%value is smaller than the worst case value, the numerator and the denominator is
-%reversed.
  Metrics like transportation burden, expediency, and consent basis,
  are normalized in such a matter. Metrics without units are booleans, where values 
  only exist in values of 0 or 1. For example, a 0 value for site access means 
@@ -154,8 +128,7 @@ that there is no existing site access infrastructure.
 
 
 \subsection{Transportation Burden}
- In order to minimize transport cost, a central location is preferred. To 
- capture this, a metric 
+ A metric 
  for representing the distance a mass of spent fuel must be transported, the 
  transport burden, is introduced. This transportation burden is the product 
  of the \gls{SNF} mass and the distance it has to travel from its current 
@@ -168,26 +141,6 @@ that there is no existing site access infrastructure.
  data \cite{nuclear_regulatory_commission_nrc:_2016}.  The distance between each storage site (i.e. reactors 
  and \gls{ISFSI}) was then calculated by using the Haversine formula on the 
  geographical coordinates of the receiving and sending sites (1 and 2). 
-
- \begin{align} 
-         \Phi_1,\Phi_2&= \mbox{latitude in radians}\\
-         \lambda_1,\lambda_2 &= \mbox{longitude in radians}\\
-         \Delta\lambda &= \left|\lambda_1 - \lambda_2\right|\\
-         \Delta\Phi &= \left|\Phi_1 - \Phi_2\right|\\
-         a&=\sin^2(\Delta\Phi)+\cos(\Phi_1)\cos(\Phi_2)\sin^2{\left(\frac{\Delta\lambda}{2}\right)}\\
-         c &= 2 \cdot arctan2(\sqrt{a},\sqrt{1-a})\\
-         d &=  (6,371km) \cdot c
- \end{align}
-
-\begin{align}
-        b_i &= m_id\\
-        B &= \sum_i^N b_i\\
-        \intertext{where}
-        b_i &= \mbox{spent fuel transport burden from facility i}\\
-        m_i &= \mbox{mass of spent fuel at facility i}\\
-        B &= \mbox{total spent fuel transport burden}\\
-        N &= \mbox{total number of facilities with spent fuel on site.}
-\end{align}
 
 This analysis used GC-859 spent fuel inventory data available from \gls{EIA} 
 through private communication \cite{domenico_GC-859_2016} as well as \gls{CURIE}, a web interface to 
@@ -212,19 +165,11 @@ km]$, spent fuel transportation burden, are listed in Table 1.
     		\end{tabular}}
     		\end {table}
 
-
-%Transitional Section and discussion on Yucca
-
-
 The Clinton Power Plant was chosen as the site for the proposed case due to its
 small $MTHM\cdot km$ value and substantially large license 
 area\cite{nrc_chapter_2007}.
-Considering that only
-$30 km^2$ is required for all the total \gls{SNF} amount, the licensed area at Clinton
-power plant allows more than  enough space to site a borehole repository, which
-avoids possible conflicts with the community from purchasing and utilizing more
-land. 
 
+%candidate
 The proposed case would require enormous cooperation from the utility that owns
 the power plant. In the case of Clinton, that would be Exelon Corporation. 
 Were Clinton facing shutdown, Exelon would have a strong incentive to 
@@ -235,31 +180,6 @@ government. Though the reactor facility may need to be decommissioned,
 this responsibility could be transferred to the federal government (or 
 an independent \gls{SNF} management agency \cite{ayers_blue_2012}) upon 
 purchase of the land.
-
-Also, with recent events, the possibility of Yucca Mountain Repository's revival
-is on the rise. This brings a potential combined case, where the new
-borehole repository will operate with the Yucca Mountain Repository. 
-
-However, partitioning west and east with respect to the 92 west meridian yields the Yucca
-Mountain Repository site approximately 
-$14,000 [MTHM]$ of \gls{SNF}, much less than its proposed capacity of 70,000 \gls{MTHM}. On the other hand, 
-the Clinton repository \gls{SNF} burden would be reduced to 61,777 \gls{MTHM}. The transportation burden is 
-$53,945,200 [MTHM\cdot km]$  
-for Yucca Mountain, and $17,940,959 MTHM\cdot km$ for the Clinton repository. This 
-adds up to a sum of $71,886,160 MTHM\cdot km$, which is about 7\% less than that
-of Clinton repository alone. This does not provide a comparable advantage. Other
-reactor sites were tested in the transportation burden analysis but also failed
-to provide a substantial advantage. Also, the selection of potential sites
-was limited by the geological constraints shown in Figure 2.
-
-If the power total MTHM value were to be equal, a line can be drawn at the 84 west
-meridian, which yields $39,942 MTHM$ for the east repository, and $36,649 MTHM$ for
-the Yucca Mountain repository. One of the original candidates, the Peach Bottom
-reactor in Pennsylvania is then chosen for its central location in the east area.
-However, this analysis yields a $MTHM\cdot km$ value of $92,575,081 MTHM\cdot km$,
-which is substantially larger than that of having one repository in Clinton. 
-Also, the Peach Bottom reactor site has little licensed land, which will require
-additional land purchase for the repository. 
 
 
 \begin{table}[h]
@@ -295,24 +215,7 @@ additional land purchase for the repository.
         probability of exceeding 0.2 g of ground acceleration in 50 years).}
   \label{fig:cbrock}
 \end{figure}
-
-    
-  
-  Also, it should be noted that the Clinton area is a well studied geologic 
-  host area. Ample data on the stratigraphy of the Decatur region, such as  
-  Figure \ref{fig:Stratigraphy} has already been collected as part of the 
-  Decatur Carbon Sequestration Project which is less than 50 miles south of the 
-  Clinton power plant.
  
-\begin{figure}[!h] 
-  \centering
-  \includegraphics[width=0.8\columnwidth]{Stratigraphy-Decatur}	
-  \caption{Stratigraphy of the Decatur Region, D is depth in feet.
-  \cite{mcdonald_illinois_2012}.}
- \label{fig:Stratigraphy}
-  	
- 
-\end{figure}
   
 \begin{table}[h]
 	\centering
@@ -331,9 +234,7 @@ additional land purchase for the repository.
 
 \subsection{Workforce Utilization}
 
-Building a spent nuclear fuel repository is no easy task. It is a task that requires
-numerous experts and laborers. Also, operating and maintaining a nuclear power plant
-requires numerous experts and laborers. In case of the proposed case, the Clinton
+The Clinton
  Power Station has approximately 700 employees living in nearby counties with an
 additional several hundred contractors during fuel 
 outages\cite{exelon_clinton_2016}.
@@ -353,7 +254,7 @@ Additionally, an estimate by the Illinois State University on fracking the New A
 Shale in southern Illinois estimated that such a project can create 1,000-47,000 jobs
 \cite{loomis_potential_2012}. Translating the workforce to central Illinois and the borehole
 project should create somewhere in the low and medium estimate, which is about 10,000
-jobs.   
+jobs. 
 
 The proposed case has a larger advantage over the base case in the sense that there
 are already existing facility in regards to spent fuel handling and worker lodging 
@@ -470,14 +371,6 @@ in a state-level.
 
 
 \subsection{Site Access}
-%%% NWPA allows only "Transshipment of spent nuclear fuel to another civilian 
-%%% reactor within the same utility system" [Title I, Subtitle B, Sec. 134(a)]
-
-%further discussion on the railline and maybe numerically express each repository's
-%proximity to closest transportation method?
-
-%Federal: less transport, the better
-%history of transport of SNF in-state?
 
 Site access necessary to transport radioactive material to the repository site 
 poses one of the greatest logistical challenges in siting a repository. 
@@ -564,33 +457,6 @@ The proposed case, once completed, will allow faster acceptance of \gls{SNF} and
 accordingly, resumed collection of the \gls{NWF}, 
 which will fund the repository operation and maintenance.
 
-  The reference Yucca Mountain case does not require land purchase 
-  because the land near Yucca Mountain is part of the Nevada Test Site. However, 
-  it is lacking in infrastructure for \gls{SNF} handling.
-  
-  As mentioned previously, the licensed land area in the Clinton case is 
-  sufficient to support a 70,000 \gls{MTHM} repository without purchase of land from 
-  the public.  However, the federal government would need to purchase the 
-  licensed area of the Clinton site from Exelon. Thus, the nuclear waste fee 
-  would need to be leveraged toward paying Exelon for its land and the 
-  facilities on site when Exelon shuts down the reactor.
-
-  This would suggest a beneficial trade for both parties, since the government
-  can purchase infrastructure and land simultaneously, and because Exelon can vastly
-  save the cost of decommissioning by selling off the reactor site. The reactor
-  core and power-generating component of the reactor site needs to be decommissioned,
-  however. As a comparison, Maine Yankee, a \gls{PWR} with a capacity of 860MWe, had a
-  decommissioning cost of 635 million \cite{aker_maine_2004}.
-
-
-%%add maybe? or too much shade?
-%Also, Clinton Power Plant, being a single unit power plant, has a much higher employee-per-GW ratio of 631, compared to, for example, 344 employee-per-GW at the Braidwood Power Plant, also in Illinois. %howtocitesinger With its inherent lack in efficiency for operation and maintenance, it would be an incentive for Exelon to host a repository to generate extra revenue. 
-
-%clinton already has dry-cask infrastructure. 
-%Utility: get rid of used facility without the trouble of decommissioning
-%Federal: cost savings
-
-
 The proposed case, being a once-operating nuclear power plant, has the facility to 
 repack the spent fuel assemblies into a disposal cask. Its dry cask infrastructure 
 is currently in use. However, this facility needs to be upgraded to increase its throughput, and should be preferably automatic, to minimize worker exposure. The transported spent fuel assemblies are repacked and inspected at the upgraded facility, and is sent to the emplacement tubes for final disposal. Not having to build an entirely new above-ground facility should greatly ease the consent-based process, for it seems like there would be minimal impact. 
@@ -603,16 +469,6 @@ used nuclear power plant, which would otherwise be a cost burden to handle.
 
 The base case requires a new above-ground facility, which not only costs a great
 amount, but also will be considered problematic in the public's eye. 
-
-%no specific advantage over the base case
-
-% how to quanticize the incentive of emptying spent fuel storage pool?
-% cost of dry cask installments for other plants (for stakeholders)
-% security issue of Quad-Cities, Dresden and Lasalle and othereactors with elevated pool
-
-%federal: able to resume collecting NWF
-	% stop paying fines to utilities
-%utility: cost savings in wet storage and dry cask infrastructure (security?)
 
 A metric for expediency is then proposed which is inversely proportionate to 
 the number of years until the federal government takes possession of the spent 
