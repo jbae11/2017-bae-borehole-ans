@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ans.bst
+Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "census"
+Warning--empty booktitle in freeze_siting_2015
+Warning--missing institution in doe_designing_2016
+You've used 27 entries,
+            2305 wiz_defined-function locations,
+            691 strings with 12262 characters,
+and the built_in function-call counts, 9022 in all, are:
+= -- 354
+> -- 414
+< -- 6
++ -- 152
+- -- 125
+* -- 777
+:= -- 969
+add.period$ -- 54
+call.type$ -- 27
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 1071
+empty$ -- 907
+format.name$ -- 137
+if$ -- 1827
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 291
+newline$ -- 85
+num.names$ -- 27
+pop$ -- 458
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 88
+swap$ -- 797
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 32
+width$ -- 29
+write$ -- 230
+(There were 3 warnings)

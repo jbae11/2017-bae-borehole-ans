@@ -1,0 +1,185 @@
+\begin{thebibliography}{10}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{arnold_research_2012}
+\MakeUppercase{B.~W. Arnold}, \MakeUppercase{P.~Vaughn},
+  \MakeUppercase{R.~MacKinnon}, \MakeUppercase{J.~Tillman},
+  \MakeUppercase{D.~Nielson}, \MakeUppercase{P.~Brady},
+  \MakeUppercase{W.~Halsey}, and \MakeUppercase{S.~Altman}, \enquote{Research,
+  {Development}, and {Demonstration} {Roadmap} for {Deep} {Borehole}
+  {Disposal},} \emph{SAND2012- 8527P. Albuquerque, NM: Sandia National
+  Laboratories} (2012).
+
+\bibitem{brady_deep_2009}
+\MakeUppercase{P.~V. Brady}, \MakeUppercase{B.~W. Arnold}, \MakeUppercase{G.~A.
+  Freeze}, \MakeUppercase{P.~N. Swift}, \MakeUppercase{S.~J. Bauer},
+  \MakeUppercase{J.~L. Kanney}, \MakeUppercase{R.~P. Rechard}, and
+  \MakeUppercase{J.~S. Stein}, \enquote{Deep borehole disposal of high-level
+  radioactive waste,} \emph{SAND2009-4401, Sandia National Laboratories}
+  (2009).
+
+\bibitem{arnold_reference_2011}
+\MakeUppercase{B.~W. Arnold}, \MakeUppercase{P.~V. Brady}, \MakeUppercase{S.~J.
+  Bauer}, \MakeUppercase{C.~Herrick}, \MakeUppercase{S.~Pye}, and
+  \MakeUppercase{J.~Finger}, \enquote{Reference design and operations for deep
+  borehole disposal of high-level radioactive waste,} Tech. Rep. SAND2011-6749,
+  Department of Energy Used Fuel Disposition Campaign, Albuquerque, NM (2011).
+
+\bibitem{nrc_chapter_2007}
+\MakeUppercase{{NRC}}, \enquote{{CHAPTER} 1 - {INTRODUCTION} {AND} {GENERAL}
+  {DESCRIPTION} {OF} {PLANT},} {CPS}/{USAR} ML0709/ML070920167.pdf, Nuclear
+  Regulatory Commission (Jan. 2007).
+
+\bibitem{waleed_regional_2015}
+\MakeUppercase{A.~Waleed}, \MakeUppercase{J.~W. Bae},
+  \MakeUppercase{R.~Balder}, \MakeUppercase{K.~Bear},
+  \MakeUppercase{M.~Benedict}, \MakeUppercase{B.~Blecha},
+  \MakeUppercase{S.~Bobbins}, \MakeUppercase{J.~Bowman},
+  \MakeUppercase{N.~Bridge}, \MakeUppercase{G.~Chappell},
+  \MakeUppercase{D.~Chun}, \MakeUppercase{K.~D'Souza}, \MakeUppercase{M.~Dost},
+  \MakeUppercase{E.~Gillum}, \MakeUppercase{G.~Gusloff}, \MakeUppercase{B.~He},
+  \MakeUppercase{J.~Helck}, \MakeUppercase{H.~Hernandez},
+  \MakeUppercase{S.~Jensen}, \MakeUppercase{J.~Joseph},
+  \MakeUppercase{P.~Louie}, \MakeUppercase{A.~Loumis}, \MakeUppercase{J.~Lu},
+  \MakeUppercase{J.~Lucas-Lukose}, \MakeUppercase{B.~Medina},
+  \MakeUppercase{J.~Mitchell}, \MakeUppercase{T.~Murase},
+  \MakeUppercase{D.~O'Grady}, \MakeUppercase{P.~Ota},
+  \MakeUppercase{J.~Pachicano}, \MakeUppercase{P.~Gustavo},
+  \MakeUppercase{P.~Polak}, \MakeUppercase{D.~Qerimi}, \MakeUppercase{E.~Rash},
+  \MakeUppercase{J.~Riccio}, \MakeUppercase{E.~Riewski},
+  \MakeUppercase{L.~Roby}, \MakeUppercase{X.~Sang}, \MakeUppercase{S.~Nirali},
+  \MakeUppercase{K.~Smith}, \MakeUppercase{R.~Spreadbury},
+  \MakeUppercase{A.~Spring}, \MakeUppercase{D.~Strat},
+  \MakeUppercase{R.~Trivedi}, \MakeUppercase{J.~Weberski},
+  \MakeUppercase{T.~Williams}, and \MakeUppercase{C.~Zircher}, \emph{Regional
+  {Deep} {Borehole} {Nuclear} {Fuel} {Repository}: {Requirements} for a {Site}
+  {License} {Application}}, Department of Nuclear, Plasma, Radiological
+  Engineering, University of Illinois at Urbana-Champaign, University of
+  Illinois at Urbana-Champaign (May 2015).
+
+\bibitem{freeze_siting_2015}
+\MakeUppercase{G.~Freeze}, \MakeUppercase{B.~Arnold}, \MakeUppercase{P.~V.
+  Brady}, \MakeUppercase{D.~Sassani}, \MakeUppercase{K.~L. Kuhlman}, and
+  \MakeUppercase{R.~McKinnon}, \enquote{Siting {Considerations} for a {Deep}
+  {Borehole} {Disposal} {Facility},} Sandia National Laboratories, Pheonix,
+  Arizona, USA (Mar. 2015).
+
+\bibitem{shumaker_astronomical_1984}
+\MakeUppercase{B.~P. Shumaker} and \MakeUppercase{R.~W. Sinnott},
+  \enquote{Astronomical computing: 1. {Computing} under the open sky. 2.
+  {Virtues} of the haversine.} \emph{Sky and telescope}, \textbf{68}, 158--159
+  (1984).
+
+\bibitem{nuclear_regulatory_commission_nrc:_2016}
+\MakeUppercase{{Nuclear Regulatory Commission}}, \enquote{{NRC}: {Facility}
+  {Locator},}  (2016).
+
+\bibitem{domenico_GC-859_2016}
+\MakeUppercase{N.~Domenico}, \enquote{{GC}-859 {Spent} {Nuclear} {Fuel}
+  {Database},}  (Sep. 2016).
+
+\bibitem{ornl_centralized_2016}
+\MakeUppercase{{ORNL}}, \enquote{The {Centralized} {Used} {Fuel} {Resource} for
+  {Information} {Exchange} ({CURIE}) {MAP},}  (2016),
+  https://curie.ornl.gov/map.
+
+\bibitem{ayers_blue_2012}
+\MakeUppercase{M.~Ayers}, \MakeUppercase{V.~Bailey},
+  \MakeUppercase{A.~Carnesale}, \MakeUppercase{P.~Domenici},
+  \MakeUppercase{S.~Eisenhower}, \MakeUppercase{C.~Hagel},
+  \MakeUppercase{J.~Lash}, \MakeUppercase{A.~Macfarlane},
+  \MakeUppercase{R.~Meserve}, \MakeUppercase{E.~Moniz},
+  \MakeUppercase{P.~Peterson}, \MakeUppercase{J.~Rowe}, and
+  \MakeUppercase{P.~Sharp}, \enquote{Blue {Ribbon} {Commission} on {America}'s
+  {Nuclear} {Future}: {Report} to the {Secretary} of {Energy},} Tech. rep.,
+  Blue Ribbon Commission on America's Nuclear Future (Jan. 2012).
+
+\bibitem{perry_gis_2015}
+\MakeUppercase{F.~V. Perry}, \MakeUppercase{B.~W. Arnold}, and
+  \MakeUppercase{R.~E. Kelly}, \enquote{A {GIS} {DATABASE} {TO} {SUPPORT}
+  {SITING} {OF} {A} {DE} {EP} {BOREHOLE} {FIELD} {TEST},} in
+  \enquote{Proceedings of {IHLRWM} 2015,} April 12-16, 2015 (Apr. 2015), pp.
+  632--637.
+
+\bibitem{exelon_clinton_2016}
+\MakeUppercase{{Exelon}}, \enquote{Clinton {Power} {Station},}  (2016).
+
+\bibitem{iaea_managing_2008}
+\MakeUppercase{{IAEA}}, \enquote{Managing the {Socioeconomic} {Impact} of the
+  {Decommissioning} of {Nuclear} {Facilities},} {IAEA} {Technical} {Report}
+  464, International Atomic Energy Agency, Vienna, Austria (2008).
+
+\bibitem{riddel_economic_2003}
+\MakeUppercase{M.~Riddel}, \MakeUppercase{M.~Boyett}, and
+  \MakeUppercase{R.~Schwer}, \enquote{The {Economic} impact of the {Yucca}
+  {Mountain} nuclear waste repository on the economy of {Nevada},}
+  \emph{Publications (YM)} (Sep. 2003).
+
+\bibitem{loomis_potential_2012}
+\MakeUppercase{D.~G. Loomis}, \enquote{The potential economic impact of {New}
+  {Albany} gas on the {Illinois} economy,} \emph{Loomis Consulting, December}
+  (2012).
+
+\bibitem{doe_designing_2016}
+\MakeUppercase{{DOE}}, \enquote{Designing a {Consent}-{Based} {Siting}
+  {Process}: {Summary} of {Public} {Input} {Report} {\textbar} {Department} of
+  {Energy},} Tech. rep. (Sep. 2016).
+
+\bibitem{jenkins-smith_public_2013}
+\MakeUppercase{H.~C. Jenkins-Smith}, \MakeUppercase{C.~L. Silva},
+  \MakeUppercase{K.~G. Herron}, \MakeUppercase{K.~G. Ripberger},
+  \MakeUppercase{M.~Nowlin}, \MakeUppercase{J.~Ripberger},
+  \MakeUppercase{E.~Bonano}, and \MakeUppercase{R.~P. Rechard}, \enquote{Public
+  preferences related to consent-based siting of radioactive waste management
+  facilities for storage and disposal: analyzing variations over time, events,
+  and program designs,} Tech. Rep. SAND 2013-0032P, FCRD-NFST-2013-000076,
+  Sandia National Laboratories (2013).
+
+\bibitem{olsson_experiences_2013}
+\MakeUppercase{O.~Olsson}, \enquote{Experiences {From} {Consent} {Based}
+  {Siting} in {Sweden},}  (2013).
+
+\bibitem{brady-lunny_dewitt_2016}
+\MakeUppercase{E.~Brady-Lunny}, \enquote{{DeWitt} {Co}. faces tax hit in
+  millions if nuclear plant closes {\textbar} {Local} {Business} {\textbar}
+  pantagraph.com,}  (Jun. 2016).
+
+\bibitem{reid_study:_2014}
+\MakeUppercase{T.~Reid}, \enquote{Study: {Nuke} plant shutdown could devastate
+  economy {\textbar} {Money} {\textbar} pantagraph.com,}  (Oct. 2014).
+
+\bibitem{eia_state_2012}
+\MakeUppercase{{EIA}}, \enquote{State {Nuclear} {Profiles} 2010 - {Energy}
+  {Information} {Administration},} Independent {Statistics} and {Analysis},
+  Energy Information Administration, Washington D.C. (Apr. 2012).
+
+\bibitem{halstead_yucca_2011}
+\MakeUppercase{R.~HALSTEAD}, \MakeUppercase{F.~Dilger}, and
+  \MakeUppercase{D.~BALLARD}, \enquote{Yucca {Mountain} {Transportation}
+  {Planning}: {Lessons} {Learned}, 1984-2009,} in \enquote{Proc. {WM}2011
+  {Conf},} Citeseer (2011).
+
+\bibitem{canadian_national_railway_company_canadian_2016}
+\MakeUppercase{{Canadian National Railway Company}}, \enquote{Canadian
+  {National} {Railway} {Company} {Network} {Map} - {Clinton} {Station}.}
+  (2016).
+
+\bibitem{iema_illinois_2005}
+\MakeUppercase{{IEMA}}, \enquote{Illinois {Spent} {Nuclear} {Fuel} and
+  {High}-{Level} {Waste} {Inspection} and {Escort} {Program},} Tech. Rep. IEMA
+  034 - 200 - 6/05, State of Illinois Emergency Management Agency - Division of
+  Nuclear Safety, Springfield, Illinois (2005).
+
+\bibitem{lee_costing_2009}
+\MakeUppercase{J.~S. Lee}, \MakeUppercase{Z.~Lovasic}, and
+  \MakeUppercase{{International Atomic Energy Agency}}, \emph{Costing of spent
+  nuclear fuel storage}, International Atomic Energy Agency, Vienna (2009),
+  oCLC: 501276967.
+
+\bibitem{doe_strategy_2013}
+\MakeUppercase{{DOE}}, \enquote{Strategy for the {Management} and {Disposal} of
+  {Used} {Nuclear} {Fuel} and {High}-{Level} {Radioactive} {Waste},} Tech.
+  rep., United States Department of Energy, Washington D.C., United States
+  (Jan. 2013).
+
+\end{thebibliography}
